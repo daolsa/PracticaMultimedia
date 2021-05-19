@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    >
+
+    <RelativeLayout
+        android:id="@+id/layoutAlto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/textoAciertos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Numero de aciertos: "
+            android:textSize="20sp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <TextView
+            android:id="@+id/contadorAciertos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textoAciertos"
+            android:text="0"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:id="@+id/layoutCentro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+        android:rowCount="4"
+        android:orientation="horizontal"
+        android:useDefaultMargins="true"
+        >
+
+        <ImageView
+            android:id="@+id/imagen1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+
+        <ImageView
+            android:id="@+id/imagen2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen6"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen8"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen9"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen10"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen11"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+        <ImageView
+            android:id="@+id/imagen12"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/cardview_dark_background"
+            android:clickable="false"
+            />
+
+
+
+    </GridLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutBajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+
+        <Button
+            android:id="@+id/botonEmpezar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="Empezar"
+            />
+
+        <Button
+            android:id="@+id/botonAcabar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acabar"
+            android:layout_alignParentRight="true"
+            android:enabled="false"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
